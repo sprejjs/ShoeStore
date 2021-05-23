@@ -16,4 +16,5 @@
     <string name="stock_item_company_template"><![CDATA[<b>Size: </b>%1$s]]></string>
     <string name="stock_item_size_template"><![CDATA[<b>Company: </b>%1$s]]></string>
     <string name="stock_item_description_template"><![CDATA[<b>Description:</b><br/>%1$s]]></string>
+    <string name="btn_logout_title">Logout</string>
 </resources>
