@@ -37,7 +37,9 @@ class StockListFragment: Fragment() {
         }
 
         binding.stockListAddItem.setOnClickListener {
-            viewModel.onShoeAdded()
+            findNavController()
+                .navigate(StockListFragmentDirections
+                    .actionStockListFragmentToAddStockItemFragment())
         }
 
         viewModel.stock.observe(viewLifecycleOwner, { list ->

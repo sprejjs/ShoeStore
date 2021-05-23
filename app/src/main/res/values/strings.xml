@@ -17,4 +17,11 @@
     <string name="stock_item_size_template"><![CDATA[<b>Company: </b>%1$s]]></string>
     <string name="stock_item_description_template"><![CDATA[<b>Description:</b><br/>%1$s]]></string>
     <string name="btn_logout_title">Logout</string>
+    <string name="add_stock_item_header">Please enter the details</string>
+    <string name="add_stock_item_name_hint">Name</string>
+    <string name="add_stock_item_company_hint">Company</string>
+    <string name="add_stock_item_size_hint">Size</string>
+    <string name="add_stock_item_description_hint">Description</string>
+    <string name="add_stock_item_save_button_title">Save</string>
+    <string name="add_stock_item_cancel_button_title">Cancel</string>
 </resources>

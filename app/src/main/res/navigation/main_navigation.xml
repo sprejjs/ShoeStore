@@ -47,5 +47,18 @@
         android:id="@+id/stockListFragment"
         android:name="com.udacity.shoestore.screens.stock.StockListFragment"
         android:label="StockListFragment"
-        tools:layout="@layout/stock_list_fragment"/>
+        tools:layout="@layout/stock_list_fragment">
+        <action
+            android:id="@+id/action_stockListFragment_to_addStockItemFragment"
+            app:destination="@id/addStockItemFragment"
+            app:enterAnim="@android:anim/fade_in"
+            app:exitAnim="@android:anim/fade_out"
+            app:popEnterAnim="@android:anim/fade_in"
+            app:popExitAnim="@android:anim/fade_out" />
+    </fragment>
+    <fragment
+        android:id="@+id/addStockItemFragment"
+        android:name="com.udacity.shoestore.screens.stock.AddStockItemFragment"
+        android:label="AddStockItemFragment"
+        tools:layout="@layout/add_stock_item_fragment"/>
 </navigation>
