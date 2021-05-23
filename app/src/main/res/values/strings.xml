@@ -4,4 +4,7 @@
     <string name="login_fragment_sign_up_btn">Sign up</string>
     <string name="login_fragment_username_hint">Enter your username</string>
     <string name="login_fragment_password_hint">Enter your password</string>
+    <string name="welcome_fragment_continue_btn_title">Continue</string>
+    <string name="welcome_fragment_subheading">Tap "Continue" to navigate to the store.</string>
+    <string name="welcome_fragment_heading">Welcome to the Shoe Store application!</string>
 </resources>
