@@ -36,5 +36,16 @@
         android:id="@+id/instructionsFragment"
         android:name="com.udacity.shoestore.screens.instructions.InstructionsFragment"
         android:label="InstructionsFragment"
-        tools:layout="@layout/instructions_fragment"/>
+        tools:layout="@layout/instructions_fragment">
+        <action
+            android:id="@+id/action_instructionsFragment_to_stockListFragment"
+            app:destination="@id/stockListFragment"
+            app:enterAnim="@android:anim/fade_in"
+            app:exitAnim="@android:anim/fade_out" />
+    </fragment>
+    <fragment
+        android:id="@+id/stockListFragment"
+        android:name="com.udacity.shoestore.screens.stock.StockListFragment"
+        android:label="StockListFragment"
+        tools:layout="@layout/stock_list_fragment"/>
 </navigation>

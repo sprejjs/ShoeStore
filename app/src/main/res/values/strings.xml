@@ -10,4 +10,6 @@
     <string name="instructions_heading">ShoeStore application</string>
     <string name="instructions_fragment_subheading">In this application you can buy new shoes.</string>
     <string name="instructions_fragment_cta_title">View Stock</string>
+    <string name="stock_list_fab_content_description">Add new Shoes</string>
+    <string name="stock_list_empty_list_text">Tap the "Plus" button to add new shoes.</string>
 </resources>
