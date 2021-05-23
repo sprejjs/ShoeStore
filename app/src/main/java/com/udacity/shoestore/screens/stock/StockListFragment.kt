@@ -7,8 +7,8 @@ import androidx.activity.addCallback
 import androidx.core.view.isVisible
 import androidx.databinding.DataBindingUtil
 import androidx.fragment.app.Fragment
-import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.fragment.findNavController
+import com.udacity.shoestore.MainActivity
 import com.udacity.shoestore.R
 import com.udacity.shoestore.databinding.StockListFragmentBinding
 import com.udacity.shoestore.getHtmlSpannedString
@@ -16,7 +16,6 @@ import com.udacity.shoestore.models.Shoe
 
 class StockListFragment: Fragment() {
     private lateinit var binding: StockListFragmentBinding
-    private lateinit var viewModel: StockListViewModel
 
     override fun onCreateView(
         inflater: LayoutInflater,
@@ -30,7 +29,7 @@ class StockListFragment: Fragment() {
             false
         )
 
-        viewModel = ViewModelProvider(this).get(StockListViewModel::class.java)
+        val viewModel = (requireActivity() as MainActivity).viewModel
         binding.lifecycleOwner = this
 
         requireActivity().onBackPressedDispatcher.addCallback(this) {

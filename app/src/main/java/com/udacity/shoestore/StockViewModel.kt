@@ -1,11 +1,11 @@
-package com.udacity.shoestore.screens.stock
+package com.udacity.shoestore
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import com.udacity.shoestore.models.Shoe
 
-class StockListViewModel: ViewModel() {
+class StockViewModel: ViewModel() {
     val stock: LiveData<MutableList<Shoe>>
         get() = _stock
 
