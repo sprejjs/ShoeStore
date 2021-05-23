@@ -7,4 +7,7 @@
     <string name="welcome_fragment_continue_btn_title">Continue</string>
     <string name="welcome_fragment_subheading">Tap "Continue" to navigate to the store.</string>
     <string name="welcome_fragment_heading">Welcome to the Shoe Store application!</string>
+    <string name="instructions_heading">ShoeStore application</string>
+    <string name="instructions_fragment_subheading">In this application you can buy new shoes.</string>
+    <string name="instructions_fragment_cta_title">View Stock</string>
 </resources>
