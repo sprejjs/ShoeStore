@@ -13,8 +13,8 @@
     <string name="stock_list_fab_content_description">Add new Shoes</string>
     <string name="stock_list_empty_list_text">Tap the "Plus" button to add new shoes.</string>
     <string name="stock_item_name_template"><![CDATA[<b>Name: </b>%1$s]]></string>
-    <string name="stock_item_company_template"><![CDATA[<b>Size: </b>%1$s]]></string>
-    <string name="stock_item_size_template"><![CDATA[<b>Company: </b>%1$s]]></string>
+    <string name="stock_item_company_template"><![CDATA[<b>Company: </b>%1$s]]></string>
+    <string name="stock_item_size_template"><![CDATA[<b>Size: </b>%1$s]]></string>
     <string name="stock_item_description_template"><![CDATA[<b>Description:</b><br/>%1$s]]></string>
     <string name="btn_logout_title">Logout</string>
     <string name="add_stock_item_header">Please enter the details</string>

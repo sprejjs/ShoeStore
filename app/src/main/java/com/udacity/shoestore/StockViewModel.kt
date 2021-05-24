@@ -15,15 +15,9 @@ class StockViewModel: ViewModel() {
         _stock.value = mutableListOf()
     }
 
-    fun addShoe(name: String,
-                size: String,
-                company: String,
-                description: String) {
-        size.toDoubleOrNull()?.let { sizeAsDouble ->
-            val newItem = Shoe(name, sizeAsDouble, company, description)
-            _stock.value?.add(newItem)
-            // Notify observers
-            _stock.value = _stock.value
-        }
+    fun addShoe(shoe: Shoe) {
+        _stock.value?.add(shoe)
+        // Notify observers
+        _stock.value = _stock.value
     }
 }

@@ -76,13 +76,13 @@ class StockListFragment: Fragment() {
     private fun addContentView(shoe: Shoe) {
         val inflatedView = layoutInflater.inflate(R.layout.shoe_stock_item, binding.stockListContentHolder, false)
         inflatedView.findViewById<TextView>(R.id.stock_item_name).text =
-            resources.getHtmlSpannedString(R.string.stock_item_name_template, shoe.name)
+            resources.getHtmlSpannedString(R.string.stock_item_name_template, shoe.name ?: "")
         inflatedView.findViewById<TextView>(R.id.stock_item_size).text =
-            resources.getHtmlSpannedString(R.string.stock_item_size_template, shoe.size)
+            resources.getHtmlSpannedString(R.string.stock_item_size_template, shoe.size ?: "")
         inflatedView.findViewById<TextView>(R.id.stock_item_company).text =
-            resources.getHtmlSpannedString(R.string.stock_item_company_template, shoe.company)
+            resources.getHtmlSpannedString(R.string.stock_item_company_template, shoe.company ?: "")
         inflatedView.findViewById<TextView>(R.id.stock_item_description).text =
-            resources.getHtmlSpannedString(R.string.stock_item_description_template, shoe.description)
+            resources.getHtmlSpannedString(R.string.stock_item_description_template, shoe.description ?: "")
 
         binding.stockListContentHolder.addView(inflatedView)
     }
